@@ -1,0 +1,13 @@
+library(gridExtra)
+# suppress warning message / global option output
+options(warn = -1)
+options(repos = c(CRAN = "https://cran.usk.ac.id/"))
+# Importing the required Packages
+library(tidyverse)
+library(readxl)
+library(DataExplorer)
+install.packages("igraph")
+install.packages("tidyverse")
+install.packages("readxl")
+install.packages("DataExplorer")
+install.packages("visdat")
